@@ -1,0 +1,67 @@
+/*
+--- 01 Typegraphy system ---
+
+- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- FONT WEIGHT:
+default:400
+Middle:500
+Semi-bold:600
+Bold:700
+
+-FONT COLOR:
+
+- LINE HEIGHTS:
+default:1
+Small:1.05
+Middle:1.2
+Large:1.8
+Pargraph-defualt:1.6
+
+- LETTER SPACE:
+-0.5px(负数，用于大文本)
+0.75px
+
+--- 02 COLORS ---
+- Primary:
+- Tints:
+- Shades:
+- Accents:
+- Greys:
+-Other:
+
+--- 05 AHSDOWS ---
+
+--- 06 BORDER_RADIUS ---
+-Defualt:
+-Middle:
+
+--- 07 WHITESPACE ---
+- SAPCING SYSTEM(px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #343a40;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
